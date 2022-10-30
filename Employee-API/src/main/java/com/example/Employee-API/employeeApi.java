@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.EmployeeAPI;
 
 import org.springframework.web.bind.annotation.RestController;
 

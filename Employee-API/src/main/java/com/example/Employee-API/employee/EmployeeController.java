@@ -1,4 +1,4 @@
-package com.example.demo.employee;
+package com.example.EmployeeAPI.employee;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
