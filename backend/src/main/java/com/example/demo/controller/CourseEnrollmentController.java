@@ -3,7 +3,7 @@ package com.example.demo.controller;
 import java.util.List;
 
 import com.example.demo.service.CourseEnrollmentService;
-import com.example.demo.service.CourseService;
+//import com.example.demo.service.CourseService;
 import com.example.demo.model.Course;
 import com.example.demo.model.CourseEnrollment;
 
@@ -19,8 +19,8 @@ public class CourseEnrollmentController {
 	
 	@Autowired
 	private CourseEnrollmentService courseEnrollmentService;
-    @Autowired
-    private CourseService courseService;
+//    @Autowired
+//    private CourseService courseService;
 	
 	@RequestMapping("/admin/courseIdEnrolled/{id}")
 	public List<CourseEnrollment> getAllCourseIds(@PathVariable String id) {

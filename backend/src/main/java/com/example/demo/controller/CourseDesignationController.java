@@ -3,9 +3,7 @@ package com.example.demo.controller;
 import java.util.List;
 
 import com.example.demo.service.CourseDesignationService;
-import com.example.demo.service.CourseService;
 import com.example.demo.model.Course;
-import com.example.demo.model.CourseDesignation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

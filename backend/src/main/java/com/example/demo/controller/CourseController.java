@@ -1,6 +1,5 @@
 package com.example.demo.controller;
 
-import java.util.Arrays;
 import java.util.List;
 
 import com.example.demo.service.CourseService;
