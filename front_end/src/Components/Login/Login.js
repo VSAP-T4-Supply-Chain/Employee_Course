@@ -1,36 +1,22 @@
 import React from "react"
-
+import '../Login/Login.css'
 export default function Login() {
   return (
-    <div className="Auth-form-container" style={text-align:'center'} >
-      <form className="Auth-form">
-        <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
-          <div className="form-group mt-3">
-            <label>Email address</label>
-            <input
-              type="email"
-              className="form-control mt-1"
-              placeholder="Enter email"
-            />
-          </div>
-          <div className="form-group mt-3">
-            <label>Password</label>
-            <input
-              type="password"
-              className="form-control mt-1"
-              placeholder="Enter password"
-            />
-          </div>
-          <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </div>
-          <p className="forgot-password text-right mt-2"><a href="#">Forget Password?</a>
-          </p>
+    <div className="login-form">
+    <form>
+      <h1>Login</h1>
+      <div className="content">
+        <div className="input-field">
+          <input type="email" placeholder="Email" autocomplete="off"/>
         </div>
-      </form>
-    </div>
+        <div className="input-field">
+          <input type="password" placeholder="Password" autocomplete="off"/>
+        </div>
+      </div>
+      <div className="action">
+        <button>Sign in</button>
+      </div>
+    </form>
+  </div>
   )
 }

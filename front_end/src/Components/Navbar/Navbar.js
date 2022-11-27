@@ -6,7 +6,7 @@ import './Navbar.css';
 
 export default function NavigateBar() {
   return (
-    <Navbar bg="danger" expand="lg" >
+    <Navbar bg="light" expand="lg" >
       <Container >
         <Navbar.Brand href="/home">Employee Course</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
